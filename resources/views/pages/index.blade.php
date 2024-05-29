@@ -114,7 +114,7 @@
                     <div class="card-item">
                         <div class="row">
                             <div class="col-xl-5">
-                                <div class="card-bg"><img src="assets/img/constructions-4.jpg" alt="">
+                                <div class="card-bg"><img src="assets/images/drone-mapping.jpg" alt="">
                                 </div>
                             </div>
                             <div class="col-xl-7 d-flex align-items-center">
@@ -184,7 +184,14 @@
                     </x-service>
                 </div>
 
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+
+                <!-- End Service Item -->
+
+
+            </div>
+            <div class="row mt-4">
+
+                <div class="ms-auto col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <x-service title="Inventarisasi Hutan dan Hasil Hutan Bukan Kayu">
                         <x-slot:icon>
                             <i class="fa-solid fa-mountain-city"></i>
@@ -196,7 +203,7 @@
                     </x-service>
                 </div>
 
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="me-auto col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <x-service title="Izin Pinjam Pakai Kawasan Hutan">
                         <x-slot:icon>
                             <i class="fa-solid fa-mountain-city"></i>
@@ -207,10 +214,7 @@
                         </p>
                     </x-service>
                 </div>
-                <!-- End Service Item -->
-
-
-            </div>
+              </div>
 
         </div>
 
