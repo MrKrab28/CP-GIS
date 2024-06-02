@@ -48,6 +48,12 @@
                 {{-- <h1 class="sitename">UpConstruction</h1> <span>.</span> --}}
                 <img src="{{ asset('assets/logos/GIS Logo_Logo 1.png') }}" alt="">
             </a>
+            <a href="index.html" class="logo d-flex align-items-center">
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                <!-- <img src="assets/img/logo.png" alt=""> -->
+                {{-- <h1 class="sitename">UpConstruction</h1> <span>.</span> --}}
+                <img src="{{ asset('assets/logos/GIS Logo_Logo 1.png') }}" alt="">
+            </a>
 
             <nav id="navmenu" class="navmenu">
                 <ul>
