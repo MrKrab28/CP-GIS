@@ -397,7 +397,7 @@ h6 {
   --background-color-rgb: 0, 0, 0;
   color: var(--default-color);
   background-color: var(--background-color);
-  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background: url("../images/drone-mapping.jpg") top center no-repeat;
   background-size: cover;
   font-size: 14px;
   padding-bottom: 50px;

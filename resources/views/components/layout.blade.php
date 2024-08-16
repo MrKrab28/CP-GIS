@@ -14,8 +14,8 @@
     </title>
 
     <!-- Favicons -->
-    <link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
-    <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+    {{-- <link href="{{ asset('assets/img/favicon.png') }}" rel="icon"> --}}
+    {{-- <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon"> --}}
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -51,10 +51,19 @@
 
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="/" class="active">Home</a></li>
-                    <li><a href="services.html">Structure</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#footer">Contact</a></li>
+                    <li><a href="/" class="{{ request()->is('/') ? 'active' : '' }}">Home</a></li>
+                    <li><a href="{{ route('structure') }}" class="{{ request()->routeIs('structure') ? 'active' : '' }}">Structure</a></li>
+                    <li><a href="/#services" class="{{ request()->is('services*') ? 'active' : '' }}">Services</a></li>
+                    <li><a href="services.html" class="{{ request()->is('services.html') ? 'active' : '' }}">Partnership</a></li>
+                    <li><a href="#alt-services" class="{{ request()->is('about*') ? 'active' : '' }}">About</a></li>
+                    <li><a href="#footer" class="{{ request()->is('contact*') ? 'active' : '' }}">Contact</a></li>
+
+                    {{-- <li><a href="/" class="active">Home</a></li>
+                    <li><a href="{{ route('structure') }}"  >Structure</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="services.html">Partnership</a></li>
+                    <li><a href="#alt-services">About</a></li>
+                    <li><a href="#footer">Contact</a></li> --}}
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>

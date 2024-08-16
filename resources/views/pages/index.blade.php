@@ -25,6 +25,7 @@
                 </div>
             @endfor
 
+
             <a class="carousel-control-prev" href="#section-fqREP4OWmC-carousel" role="button" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
             </a>
@@ -154,8 +155,9 @@
                             <i class="fa-solid fa-mountain-city"></i>
                         </x-slot:icon>
                         <p>
-                            Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
-                            iure perferendis tempore et consequatur.
+                            Rehabilitasi Lahan
+                            Layanan pemulihan dan perbaikan lahan yang terdegradasi untuk mengembalikan fungsi ekologis
+                            dan produktivitasnya....
                         </p>
                     </x-service>
                 </div>
@@ -166,9 +168,9 @@
                             <i class="fa-solid fa-mountain-city"></i>
                         </x-slot:icon>
                         <p>
-                            Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
-                            iure perferendis tempore et consequatur.
-                        </p>
+                            Survei dan Pemetaan
+                            Jasa survei lapangan dan pemetaan digital menggunakan teknologi GIS terkini. Kami
+                            menyediakan peta akurat dan detail untuk berbagai keperluan proyek....
                     </x-service>
                 </div>
 
@@ -178,8 +180,8 @@
                             <i class="fa-solid fa-mountain-city"></i>
                         </x-slot:icon>
                         <p>
-                            Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
-                            iure perferendis tempore et consequatur.
+                            Kajian Dokumen Lingkungan
+                            Layanan analisis dan penyusunan dokumen lingkungan seperti AMDAL, UKL-UPL, dan RKL-RPL....
                         </p>
                     </x-service>
                 </div>
@@ -197,8 +199,8 @@
                             <i class="fa-solid fa-mountain-city"></i>
                         </x-slot:icon>
                         <p>
-                            Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
-                            iure perferendis tempore et consequatur.
+                            Inventarisasi Hutan dan Hasil Hutan Bukan Kayu
+                            Jasa pendataan dan pemetaan sumber daya hutan, termasuk hasil hutan non-kayu....
                         </p>
                     </x-service>
                 </div>
@@ -209,8 +211,8 @@
                             <i class="fa-solid fa-mountain-city"></i>
                         </x-slot:icon>
                         <p>
-                            Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
-                            iure perferendis tempore et consequatur.
+                            Izin Pinjam Pakai Kawasan Hutan
+                            Bantuan dalam proses permohonan dan pengurusan izin pinjam pakai kawasan hutan....
                         </p>
                     </x-service>
                 </div>
@@ -222,7 +224,9 @@
 
     <!-- Alt Services Section -->
     <section id="alt-services" class="alt-services section">
+        <x-section-title title="About Us">
 
+        </x-section-title>
         <div class="container">
 
             <div class="row justify-content-around gy-4">
@@ -231,16 +235,17 @@
 
                 <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up"
                     data-aos-delay="200">
-                    <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-                    <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed
-                        minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+                    <h3>Generasi Indo Jaya Sejahtera</h3>
+                    <p>Generasi Indo Jaya Sejahtera adalah perusahaan yang bergerak di bidang teknologi survei dan
+                        pemetaan. Kami menyediakan solusi inovatif untuk proyek-proyek infrastruktur dan konstruksi di
+                        seluruh Indonesia. Dengan teknologi canggih dan tim ahli kami, Generasi Indo Jaya Sejahtera siap
+                        memberikan layanan survei berkualitas tinggi untuk mendukung kesuksesan proyek Anda.</p>
 
                     <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
                         <i class="bi bi-easel flex-shrink-0"></i>
                         <div>
-                            <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                                occaecati cupiditate non provident</p>
+                            <h4><a href="" class="stretched-link">Survei Topografi</a></h4>
+                            <p>Pemetaan detail permukaan tanah dengan akurasi tinggi untuk perencanaan proyek.</p>
                         </div>
                     </div><!-- End Icon Box -->
 
@@ -295,24 +300,22 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
                         <div class="portfolio-content h-100">
-                            <img src="assets/img/projects/remodeling-1.jpg" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/images/10.jpg') }}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App 1</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/remodeling-1.jpg" title="App 1"
-                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
+
+                                <a href="{{ asset('assets/images/10.jpg') }}" data-gallery="portfolio-gallery-app"
+                                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                             </div>
                         </div>
                     </div><!-- End Portfolio Item -->
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
                         <div class="portfolio-content h-100">
-                            <img src="assets/img/projects/construction-1.jpg" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/images/seleksi drone/IMG_9013.jpg') }}" class="img-fluid"
+                                alt="">
                             <div class="portfolio-info">
-                                <h4>Product 1</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/construction-1.jpg" title="Product 1"
+
+                                <a href="{{ asset('assets/images/seleksi drone/IMG_9013.jpg') }}"
                                     data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
                             </div>
@@ -321,11 +324,11 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
                         <div class="portfolio-content h-100">
-                            <img src="assets/img/projects/repairs-1.jpg" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/images/seleksi drone/IMG_9035.jpg') }}" class="img-fluid"
+                                alt="">
                             <div class="portfolio-info">
-                                <h4>Branding 1</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/repairs-1.jpg" title="Branding 1"
+
+                                <a href="{{ asset('assets/images/seleksi drone/IMG_9035.jpg') }}"
                                     data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
                             </div>
@@ -334,11 +337,10 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
                         <div class="portfolio-content h-100">
-                            <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/images/IMG_8787.jpg') }}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Books 1</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/design-1.jpg" title="Branding 1"
+
+                                <a href="{{ asset('assets/images/IMG_8787.jpg') }}"
                                     data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
                             </div>
@@ -347,11 +349,11 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
                         <div class="portfolio-content h-100">
-                            <img src="assets/img/projects/remodeling-2.jpg" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/images/seleksi/IMG_6259.jpg') }}" class="img-fluid"
+                                alt="">
                             <div class="portfolio-info">
-                                <h4>App 2</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/remodeling-2.jpg" title="App 2"
+
+                                <a href="{{ asset('assets/images/seleksi/IMG_62591.jpg') }}"
                                     data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
                             </div>
@@ -360,11 +362,11 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
                         <div class="portfolio-content h-100">
-                            <img src="assets/img/projects/construction-2.jpg" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/images/seleksi/IMG_8841.jpg') }}" class="img-fluid"
+                                alt="">
                             <div class="portfolio-info">
-                                <h4>Product 2</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/construction-2.jpg" title="Product 2"
+
+                                <a href="{{ asset('assets/images/seleksi/IMG_88411.jpg') }}"
                                     data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
                             </div>
@@ -373,11 +375,10 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
                         <div class="portfolio-content h-100">
-                            <img src="assets/img/projects/repairs-2.jpg" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/images/IMG_7633.jpg') }}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Branding 2</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/repairs-2.jpg" title="Branding 2"
+
+                                <a href="{{ asset('assets/images/IMG_76331.jpg') }}"
                                     data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
                             </div>
@@ -386,31 +387,27 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
                         <div class="portfolio-content h-100">
-                            <img src="assets/img/projects/design-2.jpg" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/images/7.jpg') }}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Books 2</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/design-2.jpg" title="Branding 2"
-                                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
+
+                                <a href="{{ asset('assets/images/7.jpg') }}" data-gallery="portfolio-gallery-book"
+                                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                             </div>
                         </div>
                     </div><!-- End Portfolio Item -->
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
                         <div class="portfolio-content h-100">
-                            <img src="assets/img/projects/remodeling-3.jpg" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/images/8.jpg') }}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App 3</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="assets/img/projects/remodeling-3.jpg" title="App 3"
-                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
+
+                                <a href="{{ asset('assets/images/8.jpg') }}" data-gallery="portfolio-gallery-app"
+                                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                             </div>
                         </div>
                     </div><!-- End Portfolio Item -->
 
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
+                    {{-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
                         <div class="portfolio-content h-100">
                             <img src="assets/img/projects/construction-3.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
@@ -447,7 +444,7 @@
                                         class="bi bi-zoom-in"></i></a>
                             </div>
                         </div>
-                    </div><!-- End Portfolio Item -->
+                    </div><!-- End Portfolio Item --> --}}
 
                 </div><!-- End Portfolio Container -->
 
