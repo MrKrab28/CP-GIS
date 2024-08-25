@@ -9,3 +9,5 @@ Route::get('/', function () {
 
 
 Route::get('/structure', [HomeController::class, 'structure'])->name('structure');
+Route::get('/partner', [HomeController::class, 'partner'])->name('partner');
+Route::get('/about', [HomeController::class, 'about'])->name('about');

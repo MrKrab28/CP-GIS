@@ -52,10 +52,10 @@
             <nav id="navmenu" class="navmenu">
                 <ul>
                     <li><a href="/" class="{{ request()->is('/') ? 'active' : '' }}">Home</a></li>
-                    <li><a href="{{ route('structure') }}" class="{{ request()->routeIs('structure') ? 'active' : '' }}">Structure</a></li>
+                    <li><a href="{{ route('structure') }}/#constructions" class="{{ request()->routeIs('structure') ? 'active' : '' }}">Structure</a></li>
                     <li><a href="/#services" class="{{ request()->is('services*') ? 'active' : '' }}">Services</a></li>
-                    <li><a href="services.html" class="{{ request()->is('services.html') ? 'active' : '' }}">Partnership</a></li>
-                    <li><a href="#alt-services" class="{{ request()->is('about*') ? 'active' : '' }}">About</a></li>
+                    <li><a href="{{ route('partner') }}/#partnership" class="{{ request()->routeIs('partner') ? 'active' : '' }}">Partnership</a></li>
+                    <li><a href="{{ route('about') }}/#alt-services"  class="{{ request()->is('about*') ? 'active' : '' }}">About</a></li>
                     <li><a href="#footer" class="{{ request()->is('contact*') ? 'active' : '' }}">Contact</a></li>
 
                     {{-- <li><a href="/" class="active">Home</a></li>
