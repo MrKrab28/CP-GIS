@@ -1,5 +1,6 @@
 <x-layout>
-
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <style>
         .benchmark-container {
             font-family: Arial, sans-serif;
@@ -50,7 +51,14 @@
         ol li {
             list-style-type: decimal;
         }
+        .icon-container {
+  display: flex;
+  align-items: center;
+}
     </style>
+
+
+
 
     <!-- Hero Section -->
     <section id="hero" class="hero section">
@@ -92,7 +100,7 @@
     </section><!-- /Hero Section -->
 
     <!-- Constructions Section -->
-    <section id="constructions" class="constructions section">
+    {{-- <section id="constructions" class="constructions section">
 
         <!-- Section Title -->
 
@@ -187,7 +195,7 @@
 
         </div>
 
-    </section><!-- /Constructions Section -->
+    </section><!-- /Constructions Section --> --}}
 
     <!-- Services Section -->
     <section id="services" class="services section">
@@ -208,7 +216,8 @@
                 <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <x-service title="PEMBUATAN TITIK BENCHMARK">
                         <x-slot:icon>
-                            <i class="fa-solid fa-mountain-city"></i>
+
+                            <i class="fa-solid fa-map-location-dot"></i>
                         </x-slot:icon>
                         <p>
                             Titik benchmark adalah titik referensi tetap yang digunakan untuk memastikan pengukuran
@@ -292,7 +301,7 @@
                 <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <x-service title="PERTEK REHABILITASI DAERAH ALIRAN SUNGAI">
                         <x-slot:icon>
-                            <i class="fa-solid fa-mountain-city"></i>
+                            <i class="fa-solid fa-water"></i>
                         </x-slot:icon>
                         <p>
                             Dalam proyek yang melibatkan pengelolaan lahan, seperti pertambangan atau pembangunan
@@ -470,7 +479,8 @@
                 <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <x-service title="SURVEI & PEMETAAN">
                         <x-slot:icon>
-                            <i class="fa-solid fa-mountain-city"></i>
+                            <i class="fa-solid fa-compass-drafting"></i>
+
                         </x-slot:icon>
                         <p>
                             Di PT. Generasi Indojaya Sejahtera, kami memahami bahwa setiap proyek membutuhkan data yang
@@ -627,7 +637,7 @@
                 <div class="ms-auto col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <x-service title="PBPH (PERIZINAN BERUSAHA PEMANFAATAN HUTAN)">
                         <x-slot:icon>
-                            <i class="fa-solid fa-mountain-city"></i>
+                            <i class="fa-solid fa-tree"></i>
                         </x-slot:icon>
                         <p>
                             PBPH adalah izin resmi yang memungkinkan perusahaan untuk memanfaatkan sumber daya hutan
@@ -722,7 +732,7 @@
                 <div class="me-auto col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <x-service title="PERIZINAN LINGKUNGAN">
                         <x-slot:icon>
-                            <i class="fa-solid fa-mountain-city"></i>
+                            <i class="fa-solid fa-tree-city"></i>
                         </x-slot:icon>
                         <p>
                             Perizinan Lingkungan adalah kunci untuk menjalankan bisnis yang bertanggung jawab dan
@@ -859,7 +869,11 @@
                 <div class="me-auto col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <x-service title="INVETARISASI HUTAN / TIMBER CRUISING">
                         <x-slot:icon>
-                            <i class="fa-solid fa-mountain-city"></i>
+
+                            <div class="icon-container">
+                                <i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i
+                                    class="fa-solid fa-tree"></i>
+                            </div>
                         </x-slot:icon>
                         <p>
                             Inventarisasi Hutan atau Timber Cruising adalah proses penting untuk menilai potensi dan
