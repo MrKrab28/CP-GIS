@@ -29,15 +29,15 @@
         }
 
         #komisaris {
-            background-color: #ffcccc;
+            background-color: #301eeb;
         }
 
         #direktur {
-            background-color: #ccffcc;
+            background-color: #c3d406;
         }
 
         #direktur-teknis {
-            background-color: #ccccff;
+            background-color: #301eeb;
         }
     </style>
     <section id="constructions" class="constructions section">
@@ -72,11 +72,11 @@
                                 </div>
                             </div> --}}
                             <div class="flowchart">
-                                <div class="box" id="komisaris">KOMISARIS</div>
+                                <div class="box text-white" id="komisaris">KOMISARIS</div>
                                 <div class="arrow"></div>
                                 <div class="box" id="direktur">DIREKTUR</div>
                                 <div class="arrow"></div>
-                                <div class="box" id="direktur-teknis">DIREKTUR TEKNIS</div>
+                                <div class="box text-white" id="direktur-teknis">DIREKTUR TEKNIS</div>
                             </div>
                         </div>
                     </div>

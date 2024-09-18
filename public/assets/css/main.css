@@ -396,8 +396,8 @@ h6 {
   --default-color-rgb: var(--contrast-color-rgb);
   --background-color-rgb: 0, 0, 0;
   color: var(--default-color);
-  background-color: var(--background-color);
-  background: url("../images/drone-mapping.jpg") top center no-repeat;
+  background-color: #4365e0;
+  /* background: url("../images/drone-mapping.jpg") top center no-repeat; */
   background-size: cover;
   font-size: 14px;
   padding-bottom: 50px;

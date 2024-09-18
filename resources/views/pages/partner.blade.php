@@ -28,9 +28,7 @@
                             <div class="col-xl-7 d-flex align-items-center">
                                 <div class="card-body">
                                     <h4 class="card-title">PT. Sumber Energi Jaya</h4>
-                                    <p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem
-                                        placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia
-                                        temporibus illo magnam. Dolor eos et.</p>
+                                    <p>Ratatotok, Kec. Ratatotok, Kabupaten Minahasa Tenggara, Sulawesi Utara 95997</p>
                                 </div>
                             </div>
                         </div>
@@ -47,9 +45,7 @@
                             <div class="col-xl-7 d-flex align-items-center">
                                 <div class="card-body">
                                     <h4 class="card-title">Kantor Pertanahan Kabupaten Polewali Mandar</h4>
-                                    <p>Sunt deserunt maiores voluptatem autem est rerum perferendis rerum
-                                        blanditiis. Est laboriosam qui iste numquam laboriosam voluptatem
-                                        architecto. Est laudantium sunt at quas aut hic. Eum dignissimos.</p>
+                                    <p>Jl. Tritura No.10, Madatte, Kec. Polewali, Kabupaten Polewali Mandar, Sulawesi Barat 91311</p>
                                 </div>
                             </div>
                         </div>

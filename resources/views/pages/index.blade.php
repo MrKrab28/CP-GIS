@@ -51,10 +51,11 @@
         ol li {
             list-style-type: decimal;
         }
+
         .icon-container {
-  display: flex;
-  align-items: center;
-}
+            display: flex;
+            align-items: center;
+        }
     </style>
 
 
@@ -100,14 +101,13 @@
     </section><!-- /Hero Section -->
 
     <!-- Constructions Section -->
-    {{-- <section id="constructions" class="constructions section">
+    <section id="constructions" class="constructions section">
 
         <!-- Section Title -->
 
-        <x-section-title title="Constructions">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas voluptates est incidunt accusamus corrupti
-            dolores laboriosam numquam in pariatur porro, amet id vitae doloremque, placeat recusandae animi asperiores
-            soluta hic!
+        <x-section-title title="Projects">
+            Beragam proyek inovatif untuk pembangunan berkelanjutan dan pelestarian lingkungan serta menghadirkan solusi
+            teknologi dan kemitraan untuk kemajuan Pemetaan dan pengelolaan sumber daya alam..
         </x-section-title>
         <!-- End Section Title -->
 
@@ -119,15 +119,20 @@
                     <div class="card-item">
                         <div class="row">
                             <div class="col-xl-5">
-                                <div class="card-bg"><img src="{{ asset('assets/images/5.jpg') }}" alt="">
+                                <div class="card-bg"><img src="{{ asset('assets/images/pengadaan_bibit.jpg') }}"
+                                        alt="">
                                 </div>
                             </div>
                             <div class="col-xl-7 d-flex align-items-center">
                                 <div class="card-body">
-                                    <h4 class="card-title">Eligendi omnis sunt veritatis.</h4>
-                                    <p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem
-                                        placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia
-                                        temporibus illo magnam. Dolor eos et.</p>
+                                    <h4 class="card-title">Pengadaan Bibit Unggul</h4>
+                                    <p>Program ini melibatkan kerja sama dengan berbagai rekanan mitra, mulai dari
+                                        penyedia bibit
+                                        lokal hingga kelompok tani di sekitar wilayah target. PT. Generasi Indojaya
+                                        Sejahtera
+                                        memastikan bahwa proses seleksi bibit dilakukan secara ketat, dengan fokus pada
+                                        spesies yang
+                                        cepat tumbuh dan memiliki daya tahan terhadap kondisi lingkungan yang sulit.</p>
                                 </div>
                             </div>
                         </div>
@@ -138,15 +143,19 @@
                     <div class="card-item">
                         <div class="row">
                             <div class="col-xl-5">
-                                <div class="card-bg"><img src="{{ asset('assets/images/9.jpg') }}" alt="">
+                                <div class="card-bg"><img src="{{ asset('assets/images/seleksi drone/IMG_9034.jpg') }}"
+                                        alt="">
                                 </div>
                             </div>
                             <div class="col-xl-7 d-flex align-items-center">
                                 <div class="card-body">
-                                    <h4 class="card-title">Possimus ut sed velit assumenda</h4>
-                                    <p>Sunt deserunt maiores voluptatem autem est rerum perferendis rerum
-                                        blanditiis. Est laboriosam qui iste numquam laboriosam voluptatem
-                                        architecto. Est laudantium sunt at quas aut hic. Eum dignissimos.</p>
+                                    <h4 class="card-title">PBT PTSL Kabupaten Polewali Mandar</h4>
+                                    <p>Tim perencanaan foto udara PT.Generasi Indojaya Sejahtera menggunakan teknologi
+                                        drone dan
+                                        remote sensing untuk menghasilkan citra udara yang akurat dan detail. Data ini
+                                        kemudian
+                                        digunakan oleh BPN Kabupaten Polewali Mandar dalam proses
+                                        verifikasi dan pengukuran tanah secara lebih efisien.</p>
                                 </div>
                             </div>
                         </div>
@@ -157,15 +166,20 @@
                     <div class="card-item">
                         <div class="row">
                             <div class="col-xl-5">
-                                <div class="card-bg"><img src="{{ asset('assets/images/7.jpg') }}" alt="">
+                                <div class="card-bg"><img src="{{ asset('assets/images/8.jpg') }}" alt="">
                                 </div>
                             </div>
                             <div class="col-xl-7 d-flex align-items-center">
                                 <div class="card-body">
-                                    <h4 class="card-title">Error beatae dolor inventore aut</h4>
-                                    <p>Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis
-                                        numquam quae quaerat ipsam omnis. Neque debitis ipsum at architecto officia
-                                        laboriosam odit. Ut sunt temporibus nulla culpa.</p>
+                                    <h4 class="card-title">Rehabilitasi Daerah Aliran Sungai</h4>
+                                    <p>PT.GIS sebagai pelaksana dan rekanan dari PT.
+                                        Sumber Energi Jaya (SEJ), telah meluncurkan program rehabilitasi Daerah Aliran
+                                        Sungai (DAS)
+                                        dengan mengandalkan teknologi dan dukungan tenaga ahli yang kompeten. Program
+                                        ini
+                                        bertujuan untuk memulihkan DAS yang terdegradasi, memastikan kelestarian
+                                        lingkungan, serta
+                                        meningkatkan keberlanjutan sumber daya alam di wilayah Sulawesi Utara.</p>
                                 </div>
                             </div>
                         </div>
@@ -176,15 +190,21 @@
                     <div class="card-item">
                         <div class="row">
                             <div class="col-xl-5">
-                                <div class="card-bg"><img src="assets/images/drone-mapping.jpg" alt="">
+                                <div class="card-bg"><img src="{{ asset('assets/images/timber cruising.jpg') }}"
+                                        alt="">
                                 </div>
                             </div>
                             <div class="col-xl-7 d-flex align-items-center">
                                 <div class="card-body">
-                                    <h4 class="card-title">Expedita voluptas ut ut nesciunt</h4>
-                                    <p>Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos
-                                        doloremque architecto illo at beatae dolore. Fugiat suscipit et sint ratione
-                                        dolores. Aut aliquid ea dolores libero nobis.</p>
+                                    <h4 class="card-title">Timber Cruising </h4>
+                                    <p>PT. Generasi Indojaya Sejahtera, sebagai tenaga teknis perencanaan hutan, telah
+                                        bermitra dengan PT. Cahaya Agro Sawit untuk melaksanakan timber cruising di
+                                        kawasan Berau
+                                        Barat. Proses ini bertujuan untuk mengumpulkan data yang akurat mengenai potensi
+                                        hutan di
+                                        wilayah tersebut, sehingga perencanaan pengelolaan hutan dapat dilakukan secara
+                                        berkelanjutan
+                                        dan tepat guna.</p>
                                 </div>
                             </div>
                         </div>
@@ -195,7 +215,7 @@
 
         </div>
 
-    </section><!-- /Constructions Section --> --}}
+    </section><!-- /Constructions Section -->
 
     <!-- Services Section -->
     <section id="services" class="services section">
@@ -1007,7 +1027,8 @@
                         <i class="fa-brands fa-discourse"></i>
                         <div>
                             <h4><a class="stretched-link">Diskusi</a></h4>
-                            <p>Pemetaan detail permukaan tanah dengan akurasi tinggi untuk perencanaan proyek.</p>
+                            <p>Proses pertukaran ide dan informasi antara anggota tim atau dengan klien. Ini mencakup
+                                brainstorming, rapat proyek, dan sesi umpan balik. </p>
                         </div>
                     </div><!-- End Icon Box -->
 
@@ -1016,8 +1037,9 @@
                         <div>
 
                             <h4><a class="stretched-link">Negoisasi</a></h4>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                voluptatum deleniti atque</p>
+                            <p>Proses mencapai kesepakatan antara berbagai pihak yang terlibat dalam proyek. Ini bisa
+                                meliputi negosiasi kontrak, penentuan harga, alokasi sumber daya, atau penyelesaian
+                                konflik.</p>
                         </div>
                     </div><!-- End Icon Box -->
 
@@ -1025,8 +1047,8 @@
                         <i class="fa-solid fa-clipboard-list"></i>
                         <div>
                             <h4><a class="stretched-link">Pengumplan Data</a></h4>
-                            <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut
-                                deserunt minus aut eligendi omnis</p>
+                            <p>Tahap penting dalam setiap proyek di mana informasi relevan dikumpulkan dari berbagai
+                                sumber. </p>
                         </div>
                     </div><!-- End Icon Box -->
 
@@ -1034,8 +1056,8 @@
                         <i class="fa-solid fa-helmet-safety"></i>
                         <div>
                             <h4><a class="stretched-link">Pengerjaan Maksimal</a></h4>
-                            <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non
-                                aspernatur odit amet. Et eligendi</p>
+                            <p>Upaya untuk mencapai hasil terbaik dalam setiap aspek pekerjaan. dan komitmen terhadap
+                                kualitas.</p>
                         </div>
 
                     </div>
@@ -1054,8 +1076,8 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2 class="">Projects</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <h2 class="">Gallery</h2>
+            <p></p>
         </div><!-- End Section Title -->
 
         <div class="container">
@@ -1164,10 +1186,10 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
                         <div class="portfolio-content h-100">
-                            <img src="{{ asset('assets/images/8.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/images/tc2.jpg') }}" class="img-fluid" alt="">
                             <div class="portfolio-info">
 
-                                <a href="{{ asset('assets/images/8.jpg') }}" data-gallery="portfolio-gallery-app"
+                                <a href="{{ asset('assets/images/tc3.jpg') }}" data-gallery="portfolio-gallery-app"
                                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                             </div>
                         </div>
